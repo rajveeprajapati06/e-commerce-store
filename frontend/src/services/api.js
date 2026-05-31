@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create central Axios instance
 const API = axios.create({
-  baseURL: '', // Empty base URL because Vite proxy maps /api requests to https://e-commerce-store1-4gkd.onrender.com
+  baseURL: 'https://e-commerce-store1-4gkd.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
